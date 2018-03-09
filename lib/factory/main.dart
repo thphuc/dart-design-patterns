@@ -5,12 +5,12 @@ main() {
   ShapeFactory shapeFactory = new ShapeFactory();
 
   // Create a circle and call draw() method
-  Shape circle = shapeFactory.createShape("CIRCLE");
-  circle.draw();
+  Shape shape = shapeFactory.createShape("CIRCLE");
+  shape.draw();
 
-  Shape rectangle = shapeFactory.createShape("RECTANGLE");
-  rectangle.draw();
+  shape = shapeFactory.createShape("RECTANGLE");
+  shape.draw();
 
-  Shape square = shapeFactory.createShape("SQUARE");
-  square.draw();
+  shape = shapeFactory.createShape("SQUARE");
+  shape.draw();
 }
