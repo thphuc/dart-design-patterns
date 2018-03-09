@@ -1,2 +1,1 @@
-# dart-design-patterns
-Design Patterns in Dart
+# Design Patterns implemented in Dart
